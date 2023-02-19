@@ -26,5 +26,5 @@ def getMax(operations):
             m.append(stack.prints())
     return m
     
-    
+  
     This code is contributed by PR.KRITHIKA PRIYA
