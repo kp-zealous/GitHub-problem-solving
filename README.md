@@ -1,2 +1,2 @@
-# GitHub-problem-solving
+# Hackerrank-problem-solving
 my python code
