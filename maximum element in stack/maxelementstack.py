@@ -1,3 +1,8 @@
+import math
+import os
+import random
+import re
+import sys
 class Stack:
     def __init__(self):
         self.items = []
@@ -25,6 +30,25 @@ def getMax(operations):
         else:
             m.append(stack.prints())
     return m
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    ops = []
+
+    for _ in range(n):
+        ops_item = input()
+        ops.append(ops_item)
+
+    res = getMax(ops)
+
+    fptr.write('\n'.join(map(str, res)))
+    fptr.write('\n')
+
+    fptr.close()
+
+    
     
   
     This code is contributed by PR.KRITHIKA PRIYA
