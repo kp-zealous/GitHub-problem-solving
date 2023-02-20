@@ -37,7 +37,7 @@ def print_singly_linked_list(node, sep, fptr):
             fptr.write(sep)
 
 
-
+#WRITE THE CODE HERE
 def deleteNode(llist, position):
     if position == 0:
         return llist.next
