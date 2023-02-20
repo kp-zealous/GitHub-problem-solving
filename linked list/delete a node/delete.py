@@ -70,3 +70,7 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+
+    
+    
+    This code is contributed by PR.KRITHIKA PRIYA
