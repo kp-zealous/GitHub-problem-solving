@@ -16,7 +16,7 @@ import sys
 def diagonalDifference(arr):
     n=len(arr)
     s1,s2=0,0
-    j,k=n,n
+    k=n
     for i in range(n):
       for j in range(n):
         if i==j:
