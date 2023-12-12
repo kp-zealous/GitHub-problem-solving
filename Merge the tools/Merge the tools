@@ -1,0 +1,9 @@
+def merge_the_tools(string, k):
+    n=len(string)
+    for i in range(int(n/k)):
+        str_out=""
+        for j in range (k):
+            if not string[i*k+j] in str_out:
+                str_out += string[i*k+j]
+        print(str_out)
+    return
